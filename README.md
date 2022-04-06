@@ -1,6 +1,8 @@
 # trending_music_analysis
 
-Exploratory data analysis & insight mining 
+Exploratory data analysis & insight mining  
+
+Target Platforms: Youtube, Spotify, Tiktok, Billboard
 
 
 Goals: 
