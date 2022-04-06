@@ -1,0 +1,1199 @@
+Last login: Thu Dec  2 22:43:50 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) daDDys-MacBook-Pro:~ zhou$ pip3 install TikTokApi
+Collecting TikTokApi
+  Downloading TikTokApi-4.0.4.2.tar.gz (67 kB)
+     |████████████████████████████████| 67 kB 3.5 MB/s 
+Requirement already satisfied: requests in ./opt/anaconda3/lib/python3.8/site-packages (from TikTokApi) (2.24.0)
+Collecting playwright
+  Downloading playwright-1.17.2-py3-none-macosx_10_13_x86_64.whl (30.9 MB)
+     |████████████████████████████████| 30.9 MB 683 kB/s 
+Collecting selenium_stealth
+  Downloading selenium_stealth-1.0.6-py3-none-any.whl (32 kB)
+Collecting selenium
+  Downloading selenium-4.1.0-py3-none-any.whl (958 kB)
+     |████████████████████████████████| 958 kB 14.4 MB/s 
+Requirement already satisfied: typing-extensions in ./opt/anaconda3/lib/python3.8/site-packages (from playwright->TikTokApi) (3.7.4.3)
+Requirement already satisfied: greenlet>=1.0.0 in ./opt/anaconda3/lib/python3.8/site-packages (from playwright->TikTokApi) (1.0.0)
+Collecting websockets>=8.1
+  Downloading websockets-10.1-cp38-cp38-macosx_10_9_x86_64.whl (96 kB)
+     |████████████████████████████████| 96 kB 8.1 MB/s 
+Collecting pyee>=8.0.1
+  Downloading pyee-8.2.2-py2.py3-none-any.whl (12 kB)
+Requirement already satisfied: certifi>=2017.4.17 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (2020.12.5)
+Requirement already satisfied: idna<3,>=2.5 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (2.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (1.25.11)
+Collecting urllib3[secure]~=1.26
+  Downloading urllib3-1.26.7-py2.py3-none-any.whl (138 kB)
+     |████████████████████████████████| 138 kB 14.8 MB/s 
+Collecting trio~=0.17
+  Downloading trio-0.19.0-py3-none-any.whl (356 kB)
+     |████████████████████████████████| 356 kB 18.2 MB/s 
+Collecting trio-websocket~=0.9
+  Downloading trio_websocket-0.9.2-py3-none-any.whl (16 kB)
+Requirement already satisfied: sniffio in ./opt/anaconda3/lib/python3.8/site-packages (from trio~=0.17->selenium->TikTokApi) (1.2.0)
+Collecting outcome
+  Downloading outcome-1.1.0-py2.py3-none-any.whl (9.7 kB)
+Requirement already satisfied: sortedcontainers in ./opt/anaconda3/lib/python3.8/site-packages (from trio~=0.17->selenium->TikTokApi) (2.3.0)
+Requirement already satisfied: attrs>=19.2.0 in ./opt/anaconda3/lib/python3.8/site-packages (from trio~=0.17->selenium->TikTokApi) (20.3.0)
+Requirement already satisfied: async-generator>=1.9 in ./opt/anaconda3/lib/python3.8/site-packages (from trio~=0.17->selenium->TikTokApi) (1.10)
+Collecting wsproto>=0.14
+  Downloading wsproto-1.0.0-py3-none-any.whl (24 kB)
+Collecting urllib3[secure]~=1.26
+  Downloading urllib3-1.26.6-py2.py3-none-any.whl (138 kB)
+     |████████████████████████████████| 138 kB 14.2 MB/s 
+  Downloading urllib3-1.26.5-py2.py3-none-any.whl (138 kB)
+     |████████████████████████████████| 138 kB 13.7 MB/s 
+  Downloading urllib3-1.26.4-py2.py3-none-any.whl (153 kB)
+     |████████████████████████████████| 153 kB 12.9 MB/s 
+  Downloading urllib3-1.26.3-py2.py3-none-any.whl (137 kB)
+     |████████████████████████████████| 137 kB 15.2 MB/s 
+  Downloading urllib3-1.26.2-py2.py3-none-any.whl (136 kB)
+     |████████████████████████████████| 136 kB 10.3 MB/s 
+  Downloading urllib3-1.26.1-py2.py3-none-any.whl (136 kB)
+     |████████████████████████████████| 136 kB 17.3 MB/s 
+  Downloading urllib3-1.26.0-py2.py3-none-any.whl (136 kB)
+     |████████████████████████████████| 136 kB 18.3 MB/s 
+INFO: pip is looking at multiple versions of trio-websocket to determine which version is compatible with other requirements. This could take a while.
+Collecting trio-websocket~=0.9
+  Downloading trio_websocket-0.9.1-py3-none-any.whl (16 kB)
+  Downloading trio_websocket-0.9.0-py3-none-any.whl (16 kB)
+INFO: pip is looking at multiple versions of attrs to determine which version is compatible with other requirements. This could take a while.
+Collecting attrs>=19.2.0
+  Using cached attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+  Downloading attrs-20.2.0-py2.py3-none-any.whl (48 kB)
+     |████████████████████████████████| 48 kB 5.0 MB/s 
+  Downloading attrs-20.1.0-py2.py3-none-any.whl (49 kB)
+     |████████████████████████████████| 49 kB 9.0 MB/s 
+  Downloading attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+  Downloading attrs-19.2.0-py2.py3-none-any.whl (40 kB)
+     |████████████████████████████████| 40 kB 10.5 MB/s 
+INFO: pip is looking at multiple versions of trio-websocket to determine which version is compatible with other requirements. This could take a while.
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. If you want to abort this run, you can press Ctrl + C to do so. To improve how pip performs, tell us what happened here: https://pip.pypa.io/surveys/backtracking
+INFO: pip is looking at multiple versions of async-generator to determine which version is compatible with other requirements. This could take a while.
+Collecting async-generator>=1.9
+  Downloading async_generator-1.9-py3-none-any.whl (18 kB)
+INFO: pip is looking at multiple versions of attrs to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of async-generator to determine which version is compatible with other requirements. This could take a while.
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. If you want to abort this run, you can press Ctrl + C to do so. To improve how pip performs, tell us what happened here: https://pip.pypa.io/surveys/backtracking
+INFO: pip is looking at multiple versions of trio to determine which version is compatible with other requirements. This could take a while.
+Collecting trio~=0.17
+  Downloading trio-0.18.0-py3-none-any.whl (354 kB)
+     |████████████████████████████████| 354 kB 13 kB/s 
+  Downloading trio-0.17.0-py3-none-any.whl (354 kB)
+     |████████████████████████████████| 354 kB 1.2 MB/s 
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. If you want to abort this run, you can press Ctrl + C to do so. To improve how pip performs, tell us what happened here: https://pip.pypa.io/surveys/backtracking
+INFO: pip is looking at multiple versions of selenium to determine which version is compatible with other requirements. This could take a while.
+Collecting selenium
+  Downloading selenium-4.0.0-py3-none-any.whl (954 kB)
+     |████████████████████████████████| 954 kB 1.8 MB/s 
+  Downloading selenium-3.141.0-py2.py3-none-any.whl (904 kB)
+     |████████████████████████████████| 904 kB 4.3 MB/s 
+  Downloading selenium-3.14.1-py2.py3-none-any.whl (902 kB)
+     |████████████████████████████████| 902 kB 5.5 MB/s 
+  Downloading selenium-3.14.0-py2.py3-none-any.whl (898 kB)
+     |████████████████████████████████| 898 kB 10.0 MB/s 
+  Downloading selenium-3.13.0-py2.py3-none-any.whl (946 kB)
+     |████████████████████████████████| 946 kB 9.6 MB/s 
+  Downloading selenium-3.12.0-py2.py3-none-any.whl (946 kB)
+     |████████████████████████████████| 946 kB 6.6 MB/s 
+  Downloading selenium-3.11.0-py2.py3-none-any.whl (943 kB)
+     |████████████████████████████████| 943 kB 10.9 MB/s 
+  Downloading selenium-3.10.0-py2.py3-none-any.whl (943 kB)
+     |████████████████████████████████| 943 kB 10.1 MB/s 
+  Downloading selenium-3.9.0-py2.py3-none-any.whl (942 kB)
+     |████████████████████████████████| 942 kB 9.8 MB/s 
+  Downloading selenium-3.8.1-py2.py3-none-any.whl (942 kB)
+     |████████████████████████████████| 942 kB 12.5 MB/s 
+  Downloading selenium-3.8.0-py2.py3-none-any.whl (941 kB)
+     |████████████████████████████████| 941 kB 12.5 MB/s 
+  Downloading selenium-3.7.0-py2.py3-none-any.whl (935 kB)
+     |████████████████████████████████| 935 kB 15.7 MB/s 
+  Downloading selenium-3.6.0-py2.py3-none-any.whl (924 kB)
+     |████████████████████████████████| 924 kB 11.0 MB/s 
+  Downloading selenium-3.5.0-py2.py3-none-any.whl (921 kB)
+     |████████████████████████████████| 921 kB 14.7 MB/s 
+  Downloading selenium-3.4.3-py2.py3-none-any.whl (931 kB)
+     |████████████████████████████████| 931 kB 12.4 MB/s 
+  Downloading selenium-3.4.2-py2.py3-none-any.whl (931 kB)
+     |████████████████████████████████| 931 kB 12.8 MB/s 
+  Downloading selenium-3.4.1-py2.py3-none-any.whl (931 kB)
+     |████████████████████████████████| 931 kB 12.5 MB/s 
+  Downloading selenium-3.4.0-py2.py3-none-any.whl (931 kB)
+     |████████████████████████████████| 931 kB 11.2 MB/s 
+  Downloading selenium-3.3.3-py2.py3-none-any.whl (931 kB)
+     |████████████████████████████████| 931 kB 14.5 MB/s 
+  Downloading selenium-3.3.2-py2.py3-none-any.whl (931 kB)
+     |████████████████████████████████| 931 kB 14.1 MB/s 
+  Downloading selenium-3.3.1-py2.py3-none-any.whl (930 kB)
+     |████████████████████████████████| 930 kB 9.5 MB/s 
+  Downloading selenium-3.3.0-py2.py3-none-any.whl (925 kB)
+     |████████████████████████████████| 925 kB 11.8 MB/s 
+  Downloading selenium-3.0.2-py2.py3-none-any.whl (915 kB)
+     |████████████████████████████████| 915 kB 19.8 MB/s 
+  Downloading selenium-3.0.1-py2.py3-none-any.whl (913 kB)
+     |████████████████████████████████| 913 kB 15.1 MB/s 
+  Downloading selenium-3.0.0-py2.py3-none-any.whl (913 kB)
+     |████████████████████████████████| 913 kB 7.4 MB/s 
+  Downloading selenium-2.53.6-py2.py3-none-any.whl (884 kB)
+     |████████████████████████████████| 884 kB 14.7 MB/s 
+  Downloading selenium-2.53.5-py2.py3-none-any.whl (884 kB)
+     |████████████████████████████████| 884 kB 13.8 MB/s 
+  Downloading selenium-2.53.4-py2.py3-none-any.whl (1.1 MB)
+     |████████████████████████████████| 1.1 MB 19.4 MB/s 
+  Downloading selenium-2.53.3-py2.py3-none-any.whl (885 kB)
+     |████████████████████████████████| 885 kB 6.8 MB/s 
+  Downloading selenium-2.53.2-py2.py3-none-any.whl (884 kB)
+     |████████████████████████████████| 884 kB 14.4 MB/s 
+  Downloading selenium-2.53.1.tar.gz (815 kB)
+     |████████████████████████████████| 815 kB 14.0 MB/s 
+  Downloading selenium-2.53.0.tar.gz (815 kB)
+     |████████████████████████████████| 815 kB 13.0 MB/s 
+  Downloading selenium-2.52.0.tar.gz (809 kB)
+     |████████████████████████████████| 809 kB 13.9 MB/s 
+  Downloading selenium-2.51.1.tar.gz (809 kB)
+     |████████████████████████████████| 809 kB 11.8 MB/s 
+  Downloading selenium-2.51.0.tar.gz (808 kB)
+     |████████████████████████████████| 808 kB 14.6 MB/s 
+    ERROR: Command errored out with exit status 1:
+     command: /Users/zhou/opt/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ad13983229d840a6ad2441db472a55b7/setup.py'"'"'; __file__='"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ad13983229d840a6ad2441db472a55b7/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-l7e6t52c
+         cwd: /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ad13983229d840a6ad2441db472a55b7/
+    Complete output (5 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ad13983229d840a6ad2441db472a55b7/setup.py", line 37, in <module>
+        'long_description': open(join(abspath(dirname(__file__)), "py", "README.rst")).read(),
+    FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ad13983229d840a6ad2441db472a55b7/py/README.rst'
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/44/d1/fa0b62eee493e582c25b0848059575f8b986c96e20688eea98382882cc42/selenium-2.51.0.tar.gz#sha256=3df28dbc0cd83ff2fb7245697b14355f6881d82b01344b4c945d4d2f956577a9 (from https://pypi.org/simple/selenium/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading selenium-2.50.1.tar.gz (809 kB)
+     |████████████████████████████████| 809 kB 17.0 MB/s 
+  Downloading selenium-2.50.0.tar.gz (808 kB)
+     |████████████████████████████████| 808 kB 7.0 MB/s 
+  Downloading selenium-2.49.2.tar.gz (806 kB)
+     |████████████████████████████████| 806 kB 13.9 MB/s 
+  Downloading selenium-2.49.1.tar.gz (806 kB)
+     |████████████████████████████████| 806 kB 10.1 MB/s 
+  Downloading selenium-2.49.0.tar.gz (805 kB)
+     |████████████████████████████████| 805 kB 6.7 MB/s 
+  Downloading selenium-2.48.0.tar.gz (805 kB)
+     |████████████████████████████████| 805 kB 14.7 MB/s 
+  Downloading selenium-2.47.3.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 13.9 MB/s 
+  Downloading selenium-2.47.2.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 15.6 MB/s 
+  Downloading selenium-2.47.1.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 15.9 MB/s 
+  Downloading selenium-2.47.0.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 19.7 MB/s 
+  Downloading selenium-2.46.1.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 13.3 MB/s 
+  Downloading selenium-2.46.0.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 18.4 MB/s 
+  Downloading selenium-2.45.0.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 19.3 MB/s 
+  Downloading selenium-2.44.0.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 13.8 MB/s 
+  Downloading selenium-2.43.0.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 8.5 MB/s 
+  Downloading selenium-2.42.1.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 8.3 MB/s 
+  Downloading selenium-2.42.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 13.5 MB/s 
+  Downloading selenium-2.41.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 19.7 MB/s 
+  Downloading selenium-2.40.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 14.4 MB/s 
+  Downloading selenium-2.39.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 21.7 MB/s 
+  Downloading selenium-2.38.4.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 14.6 MB/s 
+  Downloading selenium-2.38.3.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 14.6 MB/s 
+  Downloading selenium-2.38.2.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 16.0 MB/s 
+  Downloading selenium-2.38.1.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 25.0 MB/s 
+  Downloading selenium-2.38.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 22.4 MB/s 
+  Downloading selenium-2.37.2.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 15.8 MB/s 
+  Downloading selenium-2.37.1.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 15.4 MB/s 
+  Downloading selenium-2.37.0.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 15.2 MB/s 
+  Downloading selenium-2.36.0.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 16.6 MB/s 
+  Downloading selenium-2.35.0.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 21.6 MB/s 
+  Downloading selenium-2.34.0.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 11.6 MB/s 
+  Downloading selenium-2.33.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 12.8 MB/s 
+  Downloading selenium-2.32.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 19.7 MB/s 
+  Downloading selenium-2.31.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 13.6 MB/s 
+  Downloading selenium-2.30.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 17.3 MB/s 
+  Downloading selenium-2.29.0.tar.gz (2.1 MB)
+     |████████████████████████████████| 2.1 MB 11.7 MB/s 
+  Downloading selenium-2.28.0.tar.gz (2.1 MB)
+     |████████████████████████████████| 2.1 MB 16.8 MB/s 
+  Downloading selenium-2.27.0.tar.gz (2.1 MB)
+     |████████████████████████████████| 2.1 MB 7.7 MB/s 
+  Downloading selenium-2.26.0.tar.gz (2.1 MB)
+     |████████████████████████████████| 2.1 MB 13.9 MB/s 
+  Downloading selenium-2.25.0.tar.gz (2.0 MB)
+     |████████████████████████████████| 2.0 MB 31.4 MB/s 
+  Downloading selenium-2.24.0.tar.gz (1.9 MB)
+     |████████████████████████████████| 1.9 MB 11.0 MB/s 
+  Downloading selenium-2.23.0.tar.gz (3.2 MB)
+     |████████████████████████████████| 3.2 MB 11.1 MB/s 
+  Downloading selenium-2.22.1.tar.gz (3.2 MB)
+     |████████████████████████████████| 3.2 MB 28.1 MB/s 
+  Downloading selenium-2.22.0.tar.gz (3.2 MB)
+     |████████████████████████████████| 3.2 MB 16.7 MB/s 
+  Downloading selenium-2.21.3.tar.gz (2.6 MB)
+     |████████████████████████████████| 2.6 MB 23.2 MB/s 
+  Downloading selenium-2.21.2.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 18.7 MB/s 
+  Downloading selenium-2.21.1.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 22.0 MB/s 
+  Downloading selenium-2.21.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 34.7 MB/s 
+  Downloading selenium-2.20.0.tar.gz (4.2 MB)
+     |████████████████████████████████| 4.2 MB 16.2 MB/s 
+  Downloading selenium-2.19.1.tar.gz (4.0 MB)
+     |████████████████████████████████| 4.0 MB 22.6 MB/s 
+  Downloading selenium-2.19.0.tar.gz (4.0 MB)
+     |████████████████████████████████| 4.0 MB 15.8 MB/s 
+    ERROR: Command errored out with exit status 1:
+     command: /Users/zhou/opt/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ecdeda5e128048aaa78fa42b0562187b/setup.py'"'"'; __file__='"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ecdeda5e128048aaa78fa42b0562187b/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-ndm0xr62
+         cwd: /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ecdeda5e128048aaa78fa42b0562187b/
+    Complete output (81 lines):
+    no previously-included directories found matching '*'
+    warning: no files found matching 'docs/api/py/index.rst'
+    creating build
+    creating build/src
+    creating build/src/py
+    creating build/src/py/selenium
+    creating build/src/py/selenium/common
+    creating build/src/py/selenium/webdriver
+    creating build/src/py/selenium/webdriver/chrome
+    creating build/src/py/selenium/webdriver/common
+    creating build/src/py/selenium/webdriver/firefox
+    creating build/src/py/selenium/webdriver/firefox/amd64
+    creating build/src/py/selenium/webdriver/firefox/x86
+    creating build/src/py/selenium/webdriver/ie
+    creating build/src/py/selenium/webdriver/ie/win32
+    creating build/src/py/selenium/webdriver/ie/x64
+    creating build/src/py/selenium/webdriver/opera
+    creating build/src/py/selenium/webdriver/remote
+    creating build/src/py/selenium/webdriver/support
+    creating build/src/selenium.egg-info
+    copying py/selenium/webdriver/__init__.py -> build/src/py/selenium/webdriver
+    copying py/selenium/webdriver/firefox/extension_connection.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/__init__.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/firefox_profile.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/firefox_binary.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/webdriver.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/common/proxy.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/__init__.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/keys.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/utils.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/action_chains.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/desired_capabilities.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/by.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/alert.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/support/ui.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/support/wait.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/support/__init__.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/support/select.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/chrome/options.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/chrome/service.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/chrome/__init__.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/chrome/webdriver.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/opera/service.py -> build/src/py/selenium/webdriver/opera
+    copying py/selenium/webdriver/opera/__init__.py -> build/src/py/selenium/webdriver/opera
+    copying py/selenium/webdriver/opera/webdriver.py -> build/src/py/selenium/webdriver/opera
+    copying py/selenium/webdriver/ie/__init__.py -> build/src/py/selenium/webdriver/ie
+    copying py/selenium/webdriver/ie/webdriver.py -> build/src/py/selenium/webdriver/ie
+    copying py/selenium/webdriver/remote/remote_connection.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/command.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/__init__.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/utils.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/errorhandler.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/webelement.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/webdriver.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/common/__init__.py -> build/src/py/selenium/common
+    copying py/selenium/common/exceptions.py -> build/src/py/selenium/common
+    copying py/selenium/webdriver/firefox/webdriver.xpi -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/x86/x_ignore_nofocus.so -> build/src/py/selenium/webdriver/firefox/x86
+    copying py/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so -> build/src/py/selenium/webdriver/firefox/amd64
+    copying py/selenium/webdriver/ie/win32/IEDriver.dll -> build/src/py/selenium/webdriver/ie/win32
+    copying py/selenium/webdriver/ie/x64/IEDriver.dll -> build/src/py/selenium/webdriver/ie/x64
+    copying py/selenium/selenium.py -> build/src/py/selenium
+    copying py/selenium/__init__.py -> build/src/py/selenium
+    copying py/CHANGES -> build/src/py
+    copying py/README -> build/src/py
+    copying selenium.egg-info/PKG-INFO -> build/src/selenium.egg-info
+    copying selenium.egg-info/not-zip-safe -> build/src/selenium.egg-info
+    copying selenium.egg-info/SOURCES.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/top_level.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/dependency_links.txt -> build/src/selenium.egg-info
+    Skipping optional fixer: buffer
+    Skipping optional fixer: idioms
+    Skipping optional fixer: set_literal
+    Skipping optional fixer: ws_comma
+    running egg_info
+    creating /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-ndm0xr62/selenium.egg-info
+    writing /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-ndm0xr62/selenium.egg-info/PKG-INFO
+    writing dependency_links to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-ndm0xr62/selenium.egg-info/dependency_links.txt
+    writing top-level names to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-ndm0xr62/selenium.egg-info/top_level.txt
+    writing manifest file '/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-ndm0xr62/selenium.egg-info/SOURCES.txt'
+    error: package directory 'build/src/py/test' does not exist
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/58/db/0e287918fc5bb1b97352b06122e0f396bd819dbdf74e226d81d7d8b40381/selenium-2.19.0.tar.gz#sha256=7e054f00cbaccdc6bd967e50dc5ffee0ae8e46656b1d78321d92a5d7995dda6f (from https://pypi.org/simple/selenium/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading selenium-2.18.1.tar.gz (4.0 MB)
+     |████████████████████████████████| 4.0 MB 21.0 MB/s 
+  Downloading selenium-2.18.0.tar.gz (4.0 MB)
+     |████████████████████████████████| 4.0 MB 12.7 MB/s 
+  Downloading selenium-2.17.0.tar.gz (4.0 MB)
+     |████████████████████████████████| 4.0 MB 14.4 MB/s 
+  Downloading selenium-2.16.0.tar.gz (3.9 MB)
+     |████████████████████████████████| 3.9 MB 14.8 MB/s 
+  Downloading selenium-2.15.0.tar.gz (3.6 MB)
+     |████████████████████████████████| 3.6 MB 11.8 MB/s 
+  Downloading selenium-2.14.0.tar.gz (3.3 MB)
+     |████████████████████████████████| 3.3 MB 33.0 MB/s 
+  Downloading selenium-2.13.1.tar.gz (3.3 MB)
+     |████████████████████████████████| 3.3 MB 17.8 MB/s 
+  Downloading selenium-2.13.0.tar.gz (3.3 MB)
+     |████████████████████████████████| 3.3 MB 10.2 MB/s 
+  Downloading selenium-2.12.1.tar.gz (3.3 MB)
+     |████████████████████████████████| 3.3 MB 1.7 MB/s 
+  Downloading selenium-2.12.0.tar.gz (3.3 MB)
+     |████████████████████████████████| 3.3 MB 17.2 MB/s 
+    ERROR: Command errored out with exit status 1:
+     command: /Users/zhou/opt/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_181f2430b17b41e38515a939179ad516/setup.py'"'"'; __file__='"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_181f2430b17b41e38515a939179ad516/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-zoeokk20
+         cwd: /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_181f2430b17b41e38515a939179ad516/
+    Complete output (78 lines):
+    no previously-included directories found matching '*'
+    warning: no files found matching 'docs/api/py/index.rst'
+    creating build
+    creating build/src
+    creating build/src/py
+    creating build/src/py/selenium
+    creating build/src/py/selenium/common
+    creating build/src/py/selenium/webdriver
+    creating build/src/py/selenium/webdriver/chrome
+    creating build/src/py/selenium/webdriver/common
+    creating build/src/py/selenium/webdriver/emulation
+    creating build/src/py/selenium/webdriver/firefox
+    creating build/src/py/selenium/webdriver/ie
+    creating build/src/py/selenium/webdriver/ie/win32
+    creating build/src/py/selenium/webdriver/ie/x64
+    creating build/src/py/selenium/webdriver/remote
+    creating build/src/py/selenium/webdriver/support
+    creating build/src/selenium.egg-info
+    copying py/selenium/webdriver/__init__.py -> build/src/py/selenium/webdriver
+    copying py/selenium/webdriver/firefox/extension_connection.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/__init__.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/firefox_profile.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/firefox_binary.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/webdriver.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/emulation/selenium1.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/emulation/__init__.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/emulation/navigation.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/emulation/base.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/common/__init__.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/keys.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/utils.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/action_chains.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/desired_capabilities.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/by.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/alert.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/support/ui.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/support/wait.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/support/__init__.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/support/select.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/chrome/service.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/chrome/__init__.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/chrome/webdriver.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/ie/__init__.py -> build/src/py/selenium/webdriver/ie
+    copying py/selenium/webdriver/ie/webdriver.py -> build/src/py/selenium/webdriver/ie
+    copying py/selenium/webdriver/remote/remote_connection.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/command.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/__init__.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/utils.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/errorhandler.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/webelement.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/webdriver.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/common/__init__.py -> build/src/py/selenium/common
+    copying py/selenium/common/exceptions.py -> build/src/py/selenium/common
+    copying py/selenium/webdriver/firefox/webdriver.xpi -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/ie/win32/IEDriver.dll -> build/src/py/selenium/webdriver/ie/win32
+    copying py/selenium/webdriver/ie/x64/IEDriver.dll -> build/src/py/selenium/webdriver/ie/x64
+    copying py/selenium/selenium.py -> build/src/py/selenium
+    copying py/selenium/__init__.py -> build/src/py/selenium
+    copying py/CHANGES -> build/src/py
+    copying py/README -> build/src/py
+    copying selenium.egg-info/PKG-INFO -> build/src/selenium.egg-info
+    copying selenium.egg-info/not-zip-safe -> build/src/selenium.egg-info
+    copying selenium.egg-info/SOURCES.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/requires.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/top_level.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/dependency_links.txt -> build/src/selenium.egg-info
+    Skipping optional fixer: buffer
+    Skipping optional fixer: idioms
+    Skipping optional fixer: set_literal
+    Skipping optional fixer: ws_comma
+    running egg_info
+    creating /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-zoeokk20/selenium.egg-info
+    writing /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-zoeokk20/selenium.egg-info/PKG-INFO
+    writing dependency_links to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-zoeokk20/selenium.egg-info/dependency_links.txt
+    writing requirements to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-zoeokk20/selenium.egg-info/requires.txt
+    writing top-level names to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-zoeokk20/selenium.egg-info/top_level.txt
+    writing manifest file '/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-zoeokk20/selenium.egg-info/SOURCES.txt'
+    error: package directory 'build/src/py/test' does not exist
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/51/b2/f48649040ed1747251752ab1d50764649df5b1900fb9c6d670167c0c228b/selenium-2.12.0.tar.gz#sha256=b856d224ef42295599dade001f97eabcb3059c45d76cf0e9f7365bc369141323 (from https://pypi.org/simple/selenium/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading selenium-2.11.1.tar.gz (2.9 MB)
+     |████████████████████████████████| 2.9 MB 17.4 MB/s 
+  Downloading selenium-2.11.0.tar.gz (2.9 MB)
+     |████████████████████████████████| 2.9 MB 12.7 MB/s 
+    ERROR: Command errored out with exit status 1:
+     command: /Users/zhou/opt/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_d7c87361d56a40218eaa70b7f384b7c2/setup.py'"'"'; __file__='"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_d7c87361d56a40218eaa70b7f384b7c2/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-l559u6nl
+         cwd: /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_d7c87361d56a40218eaa70b7f384b7c2/
+    Complete output (76 lines):
+    no previously-included directories found matching '*'
+    warning: no files found matching 'docs/api/py/index.rst'
+    creating build
+    creating build/src
+    creating build/src/py
+    creating build/src/py/selenium
+    creating build/src/py/selenium/common
+    creating build/src/py/selenium/webdriver
+    creating build/src/py/selenium/webdriver/chrome
+    creating build/src/py/selenium/webdriver/common
+    creating build/src/py/selenium/webdriver/emulation
+    creating build/src/py/selenium/webdriver/firefox
+    creating build/src/py/selenium/webdriver/ie
+    creating build/src/py/selenium/webdriver/ie/win32
+    creating build/src/py/selenium/webdriver/ie/x64
+    creating build/src/py/selenium/webdriver/remote
+    creating build/src/py/selenium/webdriver/support
+    creating build/src/selenium.egg-info
+    copying py/selenium/webdriver/__init__.py -> build/src/py/selenium/webdriver
+    copying py/selenium/webdriver/firefox/extension_connection.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/__init__.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/firefox_profile.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/firefox_binary.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/webdriver.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/emulation/selenium1.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/emulation/__init__.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/emulation/navigation.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/emulation/base.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/common/__init__.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/keys.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/utils.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/action_chains.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/desired_capabilities.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/by.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/alert.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/support/ui.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/support/__init__.py -> build/src/py/selenium/webdriver/support
+    copying py/selenium/webdriver/chrome/service.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/chrome/__init__.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/chrome/webdriver.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/ie/__init__.py -> build/src/py/selenium/webdriver/ie
+    copying py/selenium/webdriver/ie/webdriver.py -> build/src/py/selenium/webdriver/ie
+    copying py/selenium/webdriver/remote/remote_connection.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/command.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/__init__.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/utils.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/errorhandler.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/webelement.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/webdriver.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/common/__init__.py -> build/src/py/selenium/common
+    copying py/selenium/common/exceptions.py -> build/src/py/selenium/common
+    copying py/selenium/webdriver/firefox/webdriver.xpi -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/ie/win32/IEDriver.dll -> build/src/py/selenium/webdriver/ie/win32
+    copying py/selenium/webdriver/ie/x64/IEDriver.dll -> build/src/py/selenium/webdriver/ie/x64
+    copying py/selenium/selenium.py -> build/src/py/selenium
+    copying py/selenium/__init__.py -> build/src/py/selenium
+    copying py/CHANGES -> build/src/py
+    copying py/README -> build/src/py
+    copying selenium.egg-info/PKG-INFO -> build/src/selenium.egg-info
+    copying selenium.egg-info/not-zip-safe -> build/src/selenium.egg-info
+    copying selenium.egg-info/SOURCES.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/requires.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/top_level.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/dependency_links.txt -> build/src/selenium.egg-info
+    Skipping optional fixer: buffer
+    Skipping optional fixer: idioms
+    Skipping optional fixer: set_literal
+    Skipping optional fixer: ws_comma
+    running egg_info
+    creating /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-l559u6nl/selenium.egg-info
+    writing /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-l559u6nl/selenium.egg-info/PKG-INFO
+    writing dependency_links to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-l559u6nl/selenium.egg-info/dependency_links.txt
+    writing requirements to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-l559u6nl/selenium.egg-info/requires.txt
+    writing top-level names to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-l559u6nl/selenium.egg-info/top_level.txt
+    writing manifest file '/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-l559u6nl/selenium.egg-info/SOURCES.txt'
+    error: package directory 'build/src/py/test' does not exist
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/cc/94/b74ccf0b9fb5c6c603d9b28cdcbc92fdca262ec790de7e2e86a5ea12da79/selenium-2.11.0.tar.gz#sha256=7dbe6d334d534b311fb853dcdeb83047e6be8f92c390ea87c225eea069409bfe (from https://pypi.org/simple/selenium/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading selenium-2.10.0.tar.gz (2.9 MB)
+     |████████████████████████████████| 2.9 MB 21.1 MB/s 
+  Downloading selenium-2.9.0.tar.gz (2.9 MB)
+     |████████████████████████████████| 2.9 MB 16.6 MB/s 
+  Downloading selenium-2.8.1.tar.gz (2.9 MB)
+     |████████████████████████████████| 2.9 MB 20.0 MB/s 
+  Downloading selenium-2.8.0.tar.gz (2.9 MB)
+     |████████████████████████████████| 2.9 MB 13.5 MB/s 
+  Downloading selenium-2.7.0.tar.gz (2.5 MB)
+     |████████████████████████████████| 2.5 MB 14.7 MB/s 
+  Downloading selenium-2.6.0.tar.gz (2.4 MB)
+     |████████████████████████████████| 2.4 MB 23.1 MB/s 
+  Downloading selenium-2.5.0.tar.gz (2.4 MB)
+     |████████████████████████████████| 2.4 MB 15.9 MB/s 
+  Downloading selenium-2.4.0.tar.gz (2.1 MB)
+     |████████████████████████████████| 2.1 MB 8.0 MB/s 
+  Downloading selenium-2.3.0.tar.gz (1.5 MB)
+     |████████████████████████████████| 1.5 MB 23.9 MB/s 
+  Downloading selenium-2.2.0.tar.gz (1.5 MB)
+     |████████████████████████████████| 1.5 MB 21.6 MB/s 
+  Downloading selenium-2.1.0.tar.gz (1.5 MB)
+     |████████████████████████████████| 1.5 MB 19.0 MB/s 
+  Downloading selenium-2.0.1.tar.gz (1.5 MB)
+     |████████████████████████████████| 1.5 MB 16.2 MB/s 
+  Downloading selenium-2.0.0.tar.gz (1.5 MB)
+     |████████████████████████████████| 1.5 MB 15.8 MB/s 
+    ERROR: Command errored out with exit status 1:
+     command: /Users/zhou/opt/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_3da99e12d00340f1b88ecbf5faf34c04/setup.py'"'"'; __file__='"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_3da99e12d00340f1b88ecbf5faf34c04/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-d21oakfq
+         cwd: /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_3da99e12d00340f1b88ecbf5faf34c04/
+    Complete output (73 lines):
+    no previously-included directories found matching '*'
+    warning: no files found matching '*.zip' under directory 'py/selenium/webdriver/chrome'
+    warning: no files found matching '__init__.py'
+    creating build
+    creating build/src
+    creating build/src/docs
+    creating build/src/docs/api
+    creating build/src/docs/api/py
+    creating build/src/py
+    creating build/src/py/selenium
+    creating build/src/py/selenium/common
+    creating build/src/py/selenium/webdriver
+    creating build/src/py/selenium/webdriver/chrome
+    creating build/src/py/selenium/webdriver/common
+    creating build/src/py/selenium/webdriver/emulation
+    creating build/src/py/selenium/webdriver/firefox
+    creating build/src/py/selenium/webdriver/ie
+    creating build/src/py/selenium/webdriver/remote
+    creating build/src/selenium.egg-info
+    copying py/selenium/webdriver/__init__.py -> build/src/py/selenium/webdriver
+    copying py/selenium/webdriver/firefox/extension_connection.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/__init__.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/firefox_profile.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/firefox_binary.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/firefox/webdriver.py -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/emulation/selenium1.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/emulation/__init__.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/emulation/navigation.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/emulation/base.py -> build/src/py/selenium/webdriver/emulation
+    copying py/selenium/webdriver/common/__init__.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/keys.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/utils.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/action_chains.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/desired_capabilities.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/by.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/common/alert.py -> build/src/py/selenium/webdriver/common
+    copying py/selenium/webdriver/chrome/service.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/chrome/__init__.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/chrome/webdriver.py -> build/src/py/selenium/webdriver/chrome
+    copying py/selenium/webdriver/ie/__init__.py -> build/src/py/selenium/webdriver/ie
+    copying py/selenium/webdriver/ie/webdriver.py -> build/src/py/selenium/webdriver/ie
+    copying py/selenium/webdriver/remote/remote_connection.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/command.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/__init__.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/utils.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/errorhandler.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/webelement.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/webdriver/remote/webdriver.py -> build/src/py/selenium/webdriver/remote
+    copying py/selenium/common/__init__.py -> build/src/py/selenium/common
+    copying py/selenium/common/exceptions.py -> build/src/py/selenium/common
+    copying py/selenium/webdriver/firefox/webdriver.xpi -> build/src/py/selenium/webdriver/firefox
+    copying py/selenium/webdriver/ie/IEDriver.dll -> build/src/py/selenium/webdriver/ie
+    copying py/selenium/selenium.py -> build/src/py/selenium
+    copying py/selenium/__init__.py -> build/src/py/selenium
+    copying docs/api/py/index.rst -> build/src/docs/api/py
+    copying selenium.egg-info/PKG-INFO -> build/src/selenium.egg-info
+    copying selenium.egg-info/not-zip-safe -> build/src/selenium.egg-info
+    copying selenium.egg-info/SOURCES.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/requires.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/top_level.txt -> build/src/selenium.egg-info
+    copying selenium.egg-info/dependency_links.txt -> build/src/selenium.egg-info
+    Skipping optional fixer: buffer
+    Skipping optional fixer: idioms
+    Skipping optional fixer: set_literal
+    Skipping optional fixer: ws_comma
+    running egg_info
+    creating /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-d21oakfq/selenium.egg-info
+    writing /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-d21oakfq/selenium.egg-info/PKG-INFO
+    writing dependency_links to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-d21oakfq/selenium.egg-info/dependency_links.txt
+    writing requirements to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-d21oakfq/selenium.egg-info/requires.txt
+    writing top-level names to /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-d21oakfq/selenium.egg-info/top_level.txt
+    writing manifest file '/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-d21oakfq/selenium.egg-info/SOURCES.txt'
+    error: package directory 'build/src/py/test' does not exist
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/8b/8c/8a9dfe9f965cc331d316f14cdc8778bbbd65f28c99ea2ef2843a30c01518/selenium-2.0.0.tar.gz#sha256=38407505f0c95708644dacbd8fe3d169ba001b331a32c01f4e7ad28f1bca5299 (from https://pypi.org/simple/selenium/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading selenium-1.0.3.tar.gz (19 kB)
+  Downloading selenium-1.0.1.tar.gz (24 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /Users/zhou/opt/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_c0f9fba95da5466c830c8e0d6829029a/setup.py'"'"'; __file__='"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_c0f9fba95da5466c830c8e0d6829029a/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-0mn1r25t
+         cwd: /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_c0f9fba95da5466c830c8e0d6829029a/
+    Complete output (8 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_c0f9fba95da5466c830c8e0d6829029a/setup.py", line 20, in <module>
+        from ez_setup import use_setuptools
+      File "/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_c0f9fba95da5466c830c8e0d6829029a/ez_setup/__init__.py", line 98
+        except pkg_resources.VersionConflict, e:
+                                            ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/9c/01/d1cbe326de228b3c8d774858712916c4ff9d57d5c0df1d3614f1b0673270/selenium-1.0.1.tar.gz#sha256=c236eb6e7931b86473f3925b9568433d7c9e027a8f39accf0f2204fe56358fbf (from https://pypi.org/simple/selenium/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading selenium-0.9.2.tar.gz (15 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /Users/zhou/opt/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ce05c8333a3e4580ac0e666979accab0/setup.py'"'"'; __file__='"'"'/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ce05c8333a3e4580ac0e666979accab0/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-pip-egg-info-qjyw2d5_
+         cwd: /private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ce05c8333a3e4580ac0e666979accab0/
+    Complete output (5 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/private/var/folders/2c/rs_5l7pj4fv90ypkzs8wvxrh0000gn/T/pip-install-gh406b3m/selenium_ce05c8333a3e4580ac0e666979accab0/setup.py", line 20, in <module>
+        from ez_setup import use_setuptools
+    ModuleNotFoundError: No module named 'ez_setup'
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/ac/41/e4e91ed847ea5044cae7b30b55faeb2497174948de3ed9d075c2ba64aeaa/selenium-0.9.2.tar.gz#sha256=6b231fc1ed0d17a79c655527793f040f655b889f2df6b969760e0832e01bfb50 (from https://pypi.org/simple/selenium/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+Building wheels for collected packages: TikTokApi
+  Building wheel for TikTokApi (setup.py) ... done
+  Created wheel for TikTokApi: filename=TikTokApi-4.0.4.2-py3-none-any.whl size=74769 sha256=ffe654e37b9cf2ac03ef0b7844effc99e89a80e96486a8611a57ff5b4eb3a0a2
+  Stored in directory: /Users/zhou/Library/Caches/pip/wheels/aa/c1/ab/0cf43c132019fdb670881c1f635a867c925c18d8736facb0c8
+Successfully built TikTokApi
+Installing collected packages: websockets, selenium, pyee, selenium-stealth, playwright, TikTokApi
+Successfully installed TikTokApi-4.0.4.2 playwright-1.17.2 pyee-8.2.2 selenium-3.141.0 selenium-stealth-1.0.6 websockets-10.1
+(base) daDDys-MacBook-Pro:~ zhou$ npm i -g tiktok-scraper
+
+npm notice 
+npm notice New minor version of npm available! 8.1.2 -> 8.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.2.0
+npm notice Run npm install -g npm@8.2.0 to update!
+npm notice 
+npm ERR! code EACCES
+npm ERR! syscall mkdir
+npm ERR! path /usr/local/lib/node_modules/tiktok-scraper
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/tiktok-scraper'
+npm ERR!  [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/tiktok-scraper'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/tiktok-scraper'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhou/.npm/_logs/2021-12-03T05_22_17_755Z-debug.log
+(base) daDDys-MacBook-Pro:~ zhou$ 
+(base) daDDys-MacBook-Pro:~ zhou$ yarn global add tiktok-scraper
+-bash: yarn: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ yarn global add tiktok-scraper
+-bash: yarn: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ npm i -g tiktok-scraper
+npm ERR! code EACCES
+npm ERR! syscall mkdir
+npm ERR! path /usr/local/lib/node_modules/tiktok-scraper
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/tiktok-scraper'
+npm ERR!  [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/tiktok-scraper'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/tiktok-scraper'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhou/.npm/_logs/2021-12-03T05_28_33_165Z-debug.log
+(base) daDDys-MacBook-Pro:~ zhou$ sudo npm install -g electron --unsafe-perm=true --allow-root
+Password:
+
+added 86 packages, and audited 87 packages in 18s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) daDDys-MacBook-Pro:~ zhou$ yarn global add tiktok-scraper
+-bash: yarn: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ sudo npm install -g electron --unsafe-perm=true --allow-root
+
+changed 86 packages, and audited 87 packages in 4s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) daDDys-MacBook-Pro:~ zhou$ npm i -g tiktok-scraper
+npm ERR! code EACCES
+npm ERR! syscall mkdir
+npm ERR! path /usr/local/lib/node_modules/tiktok-scraper
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/tiktok-scraper'
+npm ERR!  [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/tiktok-scraper'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/tiktok-scraper'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhou/.npm/_logs/2021-12-03T05_32_24_417Z-debug.log
+(base) daDDys-MacBook-Pro:~ zhou$ mkdir ~/.npm-global
+(base) daDDys-MacBook-Pro:~ zhou$ npm config set prefix '~/.npm-global'
+(base) daDDys-MacBook-Pro:~ zhou$ export PATH=~/.npm-global/bin:$PATH
+(base) daDDys-MacBook-Pro:~ zhou$ source ~/.profile
+-bash: /Users/zhou/.profile: No such file or directory
+(base) daDDys-MacBook-Pro:~ zhou$ npm install -g jshint
+
+added 31 packages, and audited 32 packages in 3s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) daDDys-MacBook-Pro:~ zhou$ NPM_CONFIG_PREFIX=~/.npm-global
+(base) daDDys-MacBook-Pro:~ zhou$ npm i -g tiktok-scraper
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 266 packages, and audited 267 packages in 12s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+(base) daDDys-MacBook-Pro:~ zhou$ yarn global add tiktok-scraper
+-bash: yarn: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ $ tiktok-scraper --help
+-bash: $: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ 
+(base) daDDys-MacBook-Pro:~ zhou$ Usage: tiktok-scraper <command> [options]
+-bash: command: No such file or directory
+(base) daDDys-MacBook-Pro:~ zhou$ 
+(base) daDDys-MacBook-Pro:~ zhou$ Commands:
+-bash: Commands:: command not found
+(base) daDDys-MacBook-Pro:~ zhou$   tiktok-scraper user [id]     Scrape videos from username. Enter only username
+  tiktok-scraper hashtag [id]  Scrape videos from hashtag. Enter hashtag without #
+  tiktok-scraper trend         Scrape posts from current trends
+  tiktok-scraper music [id]    Scrape posts from a music id number
+  tiktok-scraper video [id]    Download single video without the watermark
+  tiktok-scraper history       View previous download history
+  tiktok-scraper from-file [file] [async]  Scrape users, hashtags, music, videos mentioned
+                                in a file. 1 value per 1 line
+
+Options:
+  --version            Show version number                             [boolean]
+  --session            Set session cookie value. Sometimes session can be
+                       helpful when scraping data from any method  [default: ""]
+  --session-file       Set path to the file with list of active sessions. One
+                       session per line!                           [default: ""]
+  --timeout            Set timeout between requests. Timeout is in Milliseconds:
+(base) daDDys-MacBook-Pro:~ zhou$ tiktok-scraper user USERNAME -n 300 -t csv --session sid_tt=asdasd13123123123adasda
+
+Output:
+CSV path: /bla/blah/USERNAME_1552945544582.csv
+(base) daDDys-MacBook-Pro:~ zhou$ pip3 install TikTokApi
+Requirement already satisfied: TikTokApi in ./opt/anaconda3/lib/python3.8/site-packages (4.0.4.2)
+Requirement already satisfied: playwright in ./opt/anaconda3/lib/python3.8/site-packages (from TikTokApi) (1.17.2)
+Requirement already satisfied: selenium-stealth in ./opt/anaconda3/lib/python3.8/site-packages (from TikTokApi) (1.0.6)
+Requirement already satisfied: selenium in ./opt/anaconda3/lib/python3.8/site-packages (from TikTokApi) (3.141.0)
+Requirement already satisfied: requests in ./opt/anaconda3/lib/python3.8/site-packages (from TikTokApi) (2.24.0)
+Requirement already satisfied: websockets>=8.1 in ./opt/anaconda3/lib/python3.8/site-packages (from playwright->TikTokApi) (10.1)
+Requirement already satisfied: pyee>=8.0.1 in ./opt/anaconda3/lib/python3.8/site-packages (from playwright->TikTokApi) (8.2.2)
+Requirement already satisfied: greenlet>=1.0.0 in ./opt/anaconda3/lib/python3.8/site-packages (from playwright->TikTokApi) (1.0.0)
+Requirement already satisfied: typing-extensions in ./opt/anaconda3/lib/python3.8/site-packages (from playwright->TikTokApi) (3.7.4.3)
+Requirement already satisfied: certifi>=2017.4.17 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (2020.12.5)
+Requirement already satisfied: idna<3,>=2.5 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (2.10)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (1.25.11)
+Requirement already satisfied: chardet<4,>=3.0.2 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (3.0.4)
+(base) daDDys-MacBook-Pro:~ zhou$ pip install tiktokapi==3.6.3
+Collecting tiktokapi==3.6.3
+  Downloading TikTokApi-3.6.3.tar.gz (54 kB)
+     |████████████████████████████████| 54 kB 3.0 MB/s 
+Requirement already satisfied: requests in ./opt/anaconda3/lib/python3.8/site-packages (from tiktokapi==3.6.3) (2.24.0)
+Requirement already satisfied: selenium in ./opt/anaconda3/lib/python3.8/site-packages (from tiktokapi==3.6.3) (3.141.0)
+Collecting pyppeteer
+  Downloading pyppeteer-0.2.6-py3-none-any.whl (83 kB)
+     |████████████████████████████████| 83 kB 3.6 MB/s 
+Collecting websockets<10.0,>=9.1
+  Downloading websockets-9.1-cp38-cp38-macosx_10_9_x86_64.whl (88 kB)
+     |████████████████████████████████| 88 kB 5.3 MB/s 
+Requirement already satisfied: pyee<9.0.0,>=8.1.0 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->tiktokapi==3.6.3) (8.2.2)
+Requirement already satisfied: appdirs<2.0.0,>=1.4.3 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->tiktokapi==3.6.3) (1.4.4)
+Requirement already satisfied: tqdm<5.0.0,>=4.42.1 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->tiktokapi==3.6.3) (4.59.0)
+Requirement already satisfied: importlib-metadata>=1.4 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->tiktokapi==3.6.3) (3.10.0)
+Requirement already satisfied: urllib3<2.0.0,>=1.25.8 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->tiktokapi==3.6.3) (1.25.11)
+Requirement already satisfied: zipp>=0.5 in ./opt/anaconda3/lib/python3.8/site-packages (from importlib-metadata>=1.4->pyppeteer->tiktokapi==3.6.3) (3.4.1)
+Requirement already satisfied: chardet<4,>=3.0.2 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->tiktokapi==3.6.3) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->tiktokapi==3.6.3) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->tiktokapi==3.6.3) (2020.12.5)
+Building wheels for collected packages: tiktokapi
+  Building wheel for tiktokapi (setup.py) ... done
+  Created wheel for tiktokapi: filename=TikTokApi-3.6.3-py3-none-any.whl size=49067 sha256=2be3655f76b5ba9f198d327026bfa7e68608d48ce8427afc17e130f22d74adc8
+  Stored in directory: /Users/zhou/Library/Caches/pip/wheels/af/ab/76/9be282cf89e25f68b84eb67c8c4ac9ac66447f89fb028a6dcb
+Successfully built tiktokapi
+Installing collected packages: websockets, pyppeteer, tiktokapi
+  Attempting uninstall: websockets
+    Found existing installation: websockets 10.1
+    Uninstalling websockets-10.1:
+      Successfully uninstalled websockets-10.1
+  Attempting uninstall: tiktokapi
+    Found existing installation: TikTokApi 4.0.4.2
+    Uninstalling TikTokApi-4.0.4.2:
+      Successfully uninstalled TikTokApi-4.0.4.2
+Successfully installed pyppeteer-0.2.6 tiktokapi-3.6.3 websockets-9.1
+(base) daDDys-MacBook-Pro:~ zhou$ pip install PyTikTokAPI
+Collecting PyTikTokAPI
+  Downloading PyTikTokAPI-0.0.5.tar.gz (57 kB)
+     |████████████████████████████████| 57 kB 3.2 MB/s 
+Requirement already satisfied: requests in ./opt/anaconda3/lib/python3.8/site-packages (from PyTikTokAPI) (2.24.0)
+Requirement already satisfied: pyppeteer in ./opt/anaconda3/lib/python3.8/site-packages (from PyTikTokAPI) (0.2.6)
+Collecting pyppeteer_stealth
+  Downloading pyppeteer_stealth-2.7.3.tar.gz (21 kB)
+Requirement already satisfied: tqdm<5.0.0,>=4.42.1 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->PyTikTokAPI) (4.59.0)
+Requirement already satisfied: importlib-metadata>=1.4 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->PyTikTokAPI) (3.10.0)
+Requirement already satisfied: websockets<10.0,>=9.1 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->PyTikTokAPI) (9.1)
+Requirement already satisfied: urllib3<2.0.0,>=1.25.8 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->PyTikTokAPI) (1.25.11)
+Requirement already satisfied: pyee<9.0.0,>=8.1.0 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->PyTikTokAPI) (8.2.2)
+Requirement already satisfied: appdirs<2.0.0,>=1.4.3 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->PyTikTokAPI) (1.4.4)
+Requirement already satisfied: zipp>=0.5 in ./opt/anaconda3/lib/python3.8/site-packages (from importlib-metadata>=1.4->pyppeteer->PyTikTokAPI) (3.4.1)
+Requirement already satisfied: certifi>=2017.4.17 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->PyTikTokAPI) (2020.12.5)
+Requirement already satisfied: idna<3,>=2.5 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->PyTikTokAPI) (2.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->PyTikTokAPI) (3.0.4)
+Building wheels for collected packages: PyTikTokAPI, pyppeteer-stealth
+  Building wheel for PyTikTokAPI (setup.py) ... done
+  Created wheel for PyTikTokAPI: filename=PyTikTokAPI-0.0.5-py3-none-any.whl size=56538 sha256=782135148f48717a520660d1c25117e004eb32237e9b35df580d5a18aae3eee2
+  Stored in directory: /Users/zhou/Library/Caches/pip/wheels/d2/ae/f6/839bbbe3deb93bf4b5a4382d0ac878e7ce461e9924f3ba70ba
+  Building wheel for pyppeteer-stealth (setup.py) ... done
+  Created wheel for pyppeteer-stealth: filename=pyppeteer_stealth-2.7.3-py3-none-any.whl size=32130 sha256=16b9f8cded559e319100f7ee2381309d39cd54728cfde1a3d1485b051042fc8a
+  Stored in directory: /Users/zhou/Library/Caches/pip/wheels/72/92/8a/cfc7ecf25ac00c7cb3f5d203ce8eba28f81a4462e626c21798
+Successfully built PyTikTokAPI pyppeteer-stealth
+Installing collected packages: pyppeteer-stealth, PyTikTokAPI
+Successfully installed PyTikTokAPI-0.0.5 pyppeteer-stealth-2.7.3
+(base) daDDys-MacBook-Pro:~ zhou$ pip install TikTokApi
+Requirement already satisfied: TikTokApi in ./opt/anaconda3/lib/python3.8/site-packages (3.6.3)
+Requirement already satisfied: pyppeteer in ./opt/anaconda3/lib/python3.8/site-packages (from TikTokApi) (0.2.6)
+Requirement already satisfied: selenium in ./opt/anaconda3/lib/python3.8/site-packages (from TikTokApi) (3.141.0)
+Requirement already satisfied: requests in ./opt/anaconda3/lib/python3.8/site-packages (from TikTokApi) (2.24.0)
+Requirement already satisfied: tqdm<5.0.0,>=4.42.1 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->TikTokApi) (4.59.0)
+Requirement already satisfied: urllib3<2.0.0,>=1.25.8 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->TikTokApi) (1.25.11)
+Requirement already satisfied: appdirs<2.0.0,>=1.4.3 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->TikTokApi) (1.4.4)
+Requirement already satisfied: pyee<9.0.0,>=8.1.0 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->TikTokApi) (8.2.2)
+Requirement already satisfied: importlib-metadata>=1.4 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->TikTokApi) (3.10.0)
+Requirement already satisfied: websockets<10.0,>=9.1 in ./opt/anaconda3/lib/python3.8/site-packages (from pyppeteer->TikTokApi) (9.1)
+Requirement already satisfied: zipp>=0.5 in ./opt/anaconda3/lib/python3.8/site-packages (from importlib-metadata>=1.4->pyppeteer->TikTokApi) (3.4.1)
+Requirement already satisfied: idna<3,>=2.5 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (2020.12.5)
+Requirement already satisfied: chardet<4,>=3.0.2 in ./opt/anaconda3/lib/python3.8/site-packages (from requests->TikTokApi) (3.0.4)
+(base) daDDys-MacBook-Pro:~ zhou$ python -m playwright install
+Downloading Playwright build of chromium v939194 - 119.9 Mb [=======] 100% 0.0s
+Playwright build of chromium v939194 downloaded to /Users/zhou/Library/Caches/ms-playwright/chromium-939194
+Downloading Playwright build of ffmpeg v1006 - 1.1 Mb [=============] 100% 0.0s
+Playwright build of ffmpeg v1006 downloaded to /Users/zhou/Library/Caches/ms-playwright/ffmpeg-1006
+Downloading Playwright build of firefox v1304 - 71.7 Mb [===========] 100% 0.0s
+Playwright build of firefox v1304 downloaded to /Users/zhou/Library/Caches/ms-playwright/firefox-1304
+Downloading Playwright build of webkit v1578 - 54.2 Mb [============] 100% 0.0s
+Playwright build of webkit v1578 downloaded to /Users/zhou/Library/Caches/ms-playwright/webkit-1578
+(base) daDDys-MacBook-Pro:~ zhou$ docker build . -t tiktokapi:latest
+-bash: docker: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ docker run -v TikTokApi --rm tiktokapi:latest python3 your_script.pypython -m examples.getTrending
+-bash: docker: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ python -m examples.getTrending
+/Users/zhou/opt/anaconda3/bin/python: Error while finding module specification for 'examples.getTrending' (ModuleNotFoundError: No module named 'examples')
+(base) daDDys-MacBook-Pro:~ zhou$ pip install vittualenv
+ERROR: Could not find a version that satisfies the requirement vittualenv
+ERROR: No matching distribution found for vittualenv
+(base) daDDys-MacBook-Pro:~ zhou$ $ wget https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
+-bash: $: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ wget https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
+-bash: wget: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ pip install adblockparser
+Collecting adblockparser
+  Downloading adblockparser-0.7-py2.py3-none-any.whl (13 kB)
+Installing collected packages: adblockparser
+Successfully installed adblockparser-0.7
+(base) daDDys-MacBook-Pro:~ zhou$ npm i -g tiktok-scrapper
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/tiktok-scrapper - Not found
+npm ERR! 404 
+npm ERR! 404  'tiktok-scrapper@*' is not in this registry.
+npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/zhou/.npm/_logs/2021-12-03T22_42_39_253Z-debug.log
+(base) daDDys-MacBook-Pro:~ zhou$ npm i -g tiktok-scraper
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+changed 266 packages, and audited 267 packages in 7s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+(base) daDDys-MacBook-Pro:~ zhou$ yarn global add tiktok-scraper
+-bash: yarn: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ yarn global add tiktok-scraper
+-bash: yarn: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ yarn test
+-bash: yarn: command not found
+(base) daDDys-MacBook-Pro:~ zhou$ npm install -g yarn
+
+added 1 package, and audited 2 packages in 941ms
+
+found 0 vulnerabilities
+(base) daDDys-MacBook-Pro:~ zhou$ yarn test
+yarn run v1.22.17
+error Couldn't find a package.json file in "/Users/zhou"
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+(base) daDDys-MacBook-Pro:~ zhou$ npm install express
+
+added 50 packages, and audited 51 packages in 2s
+
+found 0 vulnerabilities
+(base) daDDys-MacBook-Pro:~ zhou$ yarn test
+yarn run v1.22.17
+warning package.json: No license field
+error Command "test" not found.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+(base) daDDys-MacBook-Pro:~ zhou$ ~/package.json
+-bash: /Users/zhou/package.json: Permission denied
+(base) daDDys-MacBook-Pro:~ zhou$ yarn cache clean
+yarn cache v1.22.17
+warning package.json: No license field
+success Cleared cache.
+✨  Done in 0.03s.
+(base) daDDys-MacBook-Pro:~ zhou$ brew upgrade yarn
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+Updating Homebrew...                                                          
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:a025e143fe
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.37_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:2e885570c4dc
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.33.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:1b89ec39f7a4b8
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Pouring gettext--0.21.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21: 1,953 files, 19.8MB
+==> Installing git dependency: pcre2
+==> Pouring pcre2--10.37_1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.37_1: 230 files, 6.2MB
+==> Installing git
+==> Pouring git--2.33.0.big_sur.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Summary
+🍺  /usr/local/Cellar/git/2.33.0: 1,508 files, 42MB
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Removing: /Users/zhou/Library/Logs/Homebrew/macos-term-size... (64B)
+Removing: /Users/zhou/Library/Logs/Homebrew/mongodb-community... (126B)
+Removing: /Users/zhou/Library/Logs/Homebrew/mongodb-database-tools... (131B)
+Removing: /Users/zhou/Library/Logs/Homebrew/icu4c... (64B)
+Removing: /Users/zhou/Library/Logs/Homebrew/mongosh... (64B)
+Removing: /Users/zhou/Library/Logs/Homebrew/node@14... (64B)
+Pruned 0 symbolic links and 5 directories from /usr/local
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:0cb1cc7af109437fe0e020c9f3b7b95c3c709b140bde9f991ad2c1433496dd42
+######################################################################### 100.0%
+==> Pouring portable-ruby-2.6.8.yosemite.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 3 taps (homebrew/core, homebrew/services and mongodb/brew).
+==> New Formulae
+all-repos                  iputils                    python-tk@3.10
+atmos                      java-service-wrapper       python@3.10
+btop                       jellyfish                  qwt-qt5
+ca-certificates            k2tf                       rbw
+cassandra@3                kube-score                 regula
+cava                       kubeval                    rizin
+cgif                       ld-find-code-refs          rustfmt
+charmcraft                 libnghttp2                 sevenzip
+clang-format@11            libsigrok                  sextractor
+cloudiscovery              libsigrokdecode            sigrok-cli
+colima                     libsoup@2                  smug
+copier                     libxls                     spdx-sbom-generator
+corepack                   lilypond                   swiftplantuml
+cpufetch                   liqoctl                    symengine
+cri-tools                  llvm@12                    tailscale
+datafusion                 luau                       terraform-rover
+fastfec                    ly                         tfk8s
+feroxbuster                mdzk                       tfmigrate
+fheroes2                   mmtabbarview               tfproviderlint
+fisher                     mt32emu                    tfupdate
+fnlfmt                     ncnn                       tilt
+g2o                        node@16                    toml11
+git-branchless             nsh                        twty
+git-svn                    pdf2djvu                   urlwatch
+gitlab-ci-local            php@8.0                    uuu
+go-critic                  pip-audit                  west
+goplus                     pip-tools                  youtubeuploader
+goproxy                    pocsuite3
+iproute2                   postgresql@13
+==> Updated Formulae
+Updated 4878 formulae.
+==> Renamed Formulae
+rt-audio -> rtaudio
+selenium-server-standalone -> selenium-server
+==> Deleted Formulae
+amap                       pandoc-citeproc            soundpipe
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+
+Error: yarn not installed
+(base) daDDys-MacBook-Pro:~ zhou$ yarn test
+yarn run v1.22.17
+warning package.json: No license field
+error Command "test" not found.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+(base) daDDys-MacBook-Pro:~ zhou$ npm i -g tiktok-scraper
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+changed 266 packages, and audited 267 packages in 11s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+(base) daDDys-MacBook-Pro:~ zhou$ yarn global add tiktok-scraper
+yarn global v1.22.17
+warning package.json: No license field
+[1/4] 🔍  Resolving packages...
+warning tiktok-scraper > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+warning tiktok-scraper > request > har-validator@5.1.5: this library is no longer supported
+warning tiktok-scraper > request > uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+warning tiktok-scraper > request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+[4/4] 🔨  Building fresh packages...
+success Installed "tiktok-scraper@1.4.36" with binaries:
+      - tiktok-scraper
+✨  Done in 6.80s.
+(base) daDDys-MacBook-Pro:~ zhou$ tiktok-scraper trend -n 500 --filepath /Users/users/Desktop -t csv -f tiktokdata
+⠼ TikTok Scraper StartedENOENT: no such file or directory, open '/Users/users/Desktop/tiktokdata.csv'
+⠇ TikTok Scraper Started
+[1]+  Stopped                 tiktok-scraper trend -n 500 --filepath /Users/users/Desktop -t csv -f tiktokdata
+(base) daDDys-MacBook-Pro:~ zhou$ /Users/zhou/Desktop/DEP      tiktok-scraper trend -n 500 --filepath /Users/zhou/Desktop -t csv -f tiktokdata
+-bash: /Users/zhou/Desktop/DEP: is a directory
+(base) daDDys-MacBook-Pro:~ zhou$ /Users/zhou/Desktop/DEP      tiktok-scraper trend -n 500 --filepath /Users/zhou/Desktop -t csv -f tiktokdata
+-bash: /Users/zhou/Desktop/DEP: is a directory
+(base) daDDys-MacBook-Pro:~ zhou$ npm i -g tiktok-scraper
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+changed 266 packages, and audited 267 packages in 4s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+(base) daDDys-MacBook-Pro:~ zhou$   tiktok-scraper trend -n 500 --filepath /Users/zhou/Desktop -t csv -f tiktokdata
+CSV path: /Users/zhou/Desktop/tiktokdata.csv
+(base) daDDys-MacBook-Pro:~ zhou$   tiktok-scraper trend -n 1000 --filepath /Users/zhou/Desktop -t csv -f tiktokdata1000
+CSV path: /Users/zhou/Desktop/tiktokdata1000.csv
+(base) daDDys-MacBook-Pro:~ zhou$ tiktok-scraper trend -n 2000 --filepath /Users/zhou/Desktop -t csv -f tiktokdata2000
+CSV path: /Users/zhou/Desktop/tiktokdata2000.csv
+(base) daDDys-MacBook-Pro:~ zhou$ tiktok-scraper trend -n 5000--filepath /Users/zhou/Desktop -t csv -f tiktokdata5000
+CSV path: /Users/zhou/tiktokdata5000.csv
+(base) daDDys-MacBook-Pro:~ zhou$ tiktok-scraper trend -n 10000--filepath /Users/zhou/Desktop -t csv -f tiktokdata10k
+CSV path: /Users/zhou/tiktokdata10k.csv
+(base) daDDys-MacBook-Pro:~ zhou$ 
